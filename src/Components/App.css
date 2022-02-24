@@ -5,6 +5,13 @@
 
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
 }
+.header {
+ padding: 100px;
+  display:block;
+  margin: 0 auto
+}
+
