@@ -4,7 +4,7 @@ import "./ImageGrid.css";
 import { motion } from "framer-motion";
 
 const ImageGrid = ({ setSelected }) => {
-  //retriving the data from with the help of useFirestore hook
+  //retriving the data with the help of useFirestore hook
   const { docs } = useFirestore("images");
 
   return (
