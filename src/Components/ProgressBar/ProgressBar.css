@@ -1,5 +1,6 @@
-.progress-bar {
-    margin : 20px;
+.progress-bar{
+    display: block;
     height: 5px;
-    background-color: skyblue;
-}
+    background: var(--primary);
+    margin-top: 20px;
+  }
